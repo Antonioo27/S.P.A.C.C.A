@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="492.0" prefWidth="727.0" styleClass="Pane" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginGiocatoreController">
+   <children>
+      <Text fill="#05f007" layoutX="263.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BENVENUTI" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <TextField fx:id="codicePartitaField" layoutX="333.0" layoutY="197.0" prefHeight="33.0" prefWidth="162.0" promptText="codice partita.." />
+      <Label layoutX="134.0" layoutY="201.0" prefHeight="26.0" prefWidth="161.0" styleClass="label-custom-punteggio" text="CODICE PARTITA:" textFill="#05f007">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="CaricaPartitaButton" layoutX="577.0" layoutY="431.0" mnemonicParsing="false" onAction="#IniziaPartita" styleClass="button-salvaPartita" text="CARICA PARTITA">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="codiceTorneoField1" layoutX="333.0" layoutY="246.0" prefHeight="33.0" prefWidth="162.0" promptText="codice torneo.." />
+      <Label layoutX="134.0" layoutY="250.0" prefHeight="26.0" prefWidth="161.0" styleClass="label-custom-punteggio" text="CODICE TORNEO:" textFill="#05f007">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button layoutX="427.0" layoutY="431.0" mnemonicParsing="false" onAction="#iniziaTorneo" styleClass="button-salvaPartita" text="CARICA TORNEO">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="621.0" layoutY="14.0" mnemonicParsing="false" onAction="#tornaIndietro" text="Torna Indietro" />
+      <Button layoutX="20.0" layoutY="14.0" mnemonicParsing="false" onAction="#visualizzaLeaderBoard" text="Visualizza la LeaderBoard" />
+   </children>
+</AnchorPane>

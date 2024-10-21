@@ -1,0 +1,151 @@
+.Pane{
+    -fx-background-image: url('sfondo.png');
+    -fx-background-size: cover;
+}
+.AnchorPane{
+    -fx-background-image: url('sfondo.png');
+    -fx-background-size: cover;
+}
+.AnchorPane2 {
+    -fx-background-image: url('sfondonero.png');
+    -fx-background-size: cover;
+}
+.AnchorPane-campo {
+    -fx-background-image: url('tavolodaPoker_cleanup.png');
+    -fx-background-size: cover;
+}
+.custom-label {
+    -fx-font-size: 15px;
+    -fx-text-fill: #ffffff; /* colore del testo */
+    -fx-background-color: #4CAF50; /* colore di sfondo */
+    -fx-padding: 10;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+.label {
+    display: inline-block;
+    padding: 10px;
+    background-color: black;
+    color: green;
+}
+.label-custom {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+}
+.label-custom-punteggio {
+    -fx-text-fill: lime;
+    -fx-background-color: #333333; /* grigio scuro */
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+    -fx-wrap-text: true;
+    -fx-pref-width: -1; /* Adatta la larghezza alla lunghezza del testo */
+}
+#LblCodiceTorneo {
+    -fx-text-fill: lime;
+    -fx-background-color: #333333; /* grigio scuro */
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+    -fx-wrap-text: true;
+    -fx-pref-width: -1; /* Adatta la larghezza alla lunghezza del testo */
+    -fx-alignment: CENTER;
+}
+.button-tornaIndietro {
+    -fx-font-size: 12px; /* dimensione del testo */
+    /*-fx-padding: 3 8;  spaziatura interno del pulsante */
+    -fx-background-radius: 5; /* bordi arrotondati */
+   -fx-border-width: 2; /* spessore del bordo */
+   -fx-wrap-text: true; 
+   -fx-pref-width: -1; /* Adatta la larghezza alla lunghezza del testo */
+}
+.button-gioca {
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-background-color: #ff6666; /* rosso più chiaro */
+    -fx-border-color: #990000; /* bordo rosso scuro */
+    -fx-border-width: 2;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-wrap-text: true;
+    -fx-pref-width: -1; /* Adatta la larghezza alla lunghezza del testo */
+}
+.button-gioca:hover {
+    -fx-background-color: #ff6666; /* colore di sfondo durante l'hover */
+}
+.button-salvaPartita {
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-background-color: #90EE90; /* verde chiaro */
+    -fx-border-color: #006400; /* bordo verde scuro */
+    -fx-border-width: 2;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-wrap-text: true;
+    -fx-pref-width: -1; /* Adatta la larghezza alla lunghezza del testo */
+}
+.button-salvaPartita:hover {
+    -fx-background-color: #388E3C; /* colore di sfondo durante l'hover */
+}
+.label-vincitore {
+    -fx-text-fill: lime;
+    -fx-background-color: black;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-wrap-text: true;
+    -fx-pref-width: -1; /* Adatta la larghezza alla lunghezza del testo */
+}
+.label-visualizza {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid;
+    border-image: linear-gradient(to right, rgba(0, 0, 0, 0), #ffffff, rgba(0, 0, 0, 0));
+    border-image-slice: 1;
+}
+.button-comune {
+    -fx-background-color: #90EE90; /* colore di sfondo */
+    -fx-text-fill: black; /* colore del testo */
+    -fx-font-size: 12px; /* dimensione del testo */
+    -fx-font-weight: bold; /* grassetto */
+    -fx-padding: 3 8; /* spaziatura interno del pulsante */
+    -fx-background-radius: 5; /* bordi arrotondati */
+    -fx-border-color: #388E3C; /* colore del bordo */
+   -fx-border-width: 2; /* spessore del bordo */
+   
+}
+.button-comune2 {
+    -fx-background-color: #90EE90; /* colore di sfondo */
+    -fx-text-fill: black; /* colore del testo */
+    -fx-font-size: 12px; /* dimensione del testo */
+    -fx-font-weight: bold; /* grassetto */
+    -fx-padding: 3 8; /* spaziatura interno del pulsante */
+    -fx-background-radius: 5; /* bordi arrotondati */
+    -fx-border-color: #388E3C; /* colore del bordo */
+   -fx-border-width: 2; /* spessore del bordo */
+   -fx-wrap-text: true; 
+   -fx-pref-width: -1; /* Adatta la larghezza alla lunghezza del testo */
+}
+.button-comune:hover {
+    -fx-background-color: #388E3C; /* colore di sfondo durante l'hover */
+}
+.button-comune2:hover {
+    -fx-background-color: #388E3C; /* colore di sfondo durante l'hover */
+}
+.button-loginAmministratore {
+    -fx-background-color: #81D4FA; /* colore di sfondo celeste chiaro */
+    -fx-text-fill: white; /* colore del testo bianco */
+    -fx-font-size: 10px; /* dimensione del testo */
+    -fx-font-weight: bold; /* grassetto */
+    -fx-padding: 10 20; /* spaziatura interna del pulsante */
+    -fx-background-radius: 5; /* bordi arrotondati */
+    -fx-border-color: #0277BD; /* colore del bordo celeste scuro */
+    -fx-border-width: 2; /* spessore del bordo */
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}
+
+.button-loginAmministratore:hover {
+    -fx-background-color: #00008B; /* colore di sfondo durante l'hover */
+}
+
+
+
+
+

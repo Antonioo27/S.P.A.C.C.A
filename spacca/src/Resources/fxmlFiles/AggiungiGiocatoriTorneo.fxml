@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="681.0" prefWidth="845.0" styleClass="AnchorPane" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AggiungiGiocatoriTorneoController">
+   <children>
+      <Label fx:id="LBLv1_1" alignment="CENTER" layoutX="174.0" layoutY="121.0" prefHeight="26.0" prefWidth="88.0" styleClass="label-custom" text="Player" />
+      <TextField fx:id="Lbl1_1_1" layoutX="20.0" layoutY="82.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl2_1_1" layoutX="20.0" layoutY="118.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl3_1_1" layoutX="20.0" layoutY="154.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl1_2_1" layoutX="20.0" layoutY="208.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl2_2_1" layoutX="20.0" layoutY="244.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl3_2_1" layoutX="20.0" layoutY="280.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl1_3_1" layoutX="20.0" layoutY="330.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl2_3_1" layoutX="20.0" layoutY="366.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl3_3_1" layoutX="20.0" layoutY="402.0" prefHeight="14.0" prefWidth="88.0" />
+      <Label fx:id="LBLv2_1" alignment="CENTER" layoutX="179.0" layoutY="241.0" prefHeight="26.0" prefWidth="88.0" styleClass="label-custom" text="Player" />
+      <Label fx:id="LBLv3_1" alignment="CENTER" layoutX="174.0" layoutY="363.0" prefHeight="26.0" prefWidth="88.0" styleClass="label-custom" text="Player" />
+      <Label fx:id="LBLv3_3" alignment="CENTER" layoutX="596.0" layoutY="119.0" prefHeight="26.0" prefWidth="88.0" styleClass="label-custom" text="Player" />
+      <TextField fx:id="Lbl3_3_3" layoutX="740.0" layoutY="84.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl2_3_3" layoutX="740.0" layoutY="120.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl1_3_3" layoutX="740.0" layoutY="156.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl3_2_3" layoutX="740.0" layoutY="202.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl2_2_3" layoutX="740.0" layoutY="238.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl1_2_3" layoutX="740.0" layoutY="274.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl3_1_3" layoutX="740.0" layoutY="321.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl2_1_3" layoutX="740.0" layoutY="357.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl1_1_3" layoutX="740.0" layoutY="393.0" prefHeight="14.0" prefWidth="88.0" />
+      <Label fx:id="LBLv2_3" alignment="CENTER" layoutX="596.0" layoutY="241.0" prefHeight="26.0" prefWidth="88.0" styleClass="label-custom" text="Player" />
+      <Label fx:id="LBLv1_3" alignment="CENTER" layoutX="596.0" layoutY="357.0" prefHeight="26.0" prefWidth="88.0" styleClass="label-custom" text="Player" />
+      <Label fx:id="LBLv1" alignment="CENTER" layoutX="335.0" layoutY="243.0" prefHeight="26.0" prefWidth="88.0" styleClass="label-custom" text="Player" />
+      <Label fx:id="LBLv3" alignment="CENTER" layoutX="432.0" layoutY="243.0" prefHeight="26.0" prefWidth="88.0" styleClass="label-custom" text="Player" />
+      <ImageView fitHeight="108.0" fitWidth="130.0" layoutX="375.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Screenshot%202023-10-16%20163126.png" /> 
+         </image>
+      </ImageView>
+      <Label fx:id="LBLv2_2" alignment="CENTER" layoutX="387.0" layoutY="473.0" prefHeight="26.0" prefWidth="88.0" styleClass="label-custom" text="Player" />
+      <TextField fx:id="Lbl1_3_2" layoutX="627.0" layoutY="633.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl2_3_2" layoutX="682.0" layoutY="595.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl3_3_2" layoutX="726.0" layoutY="633.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl2_1_2" layoutX="108.0" layoutY="595.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl1_1_2" layoutX="52.0" layoutY="630.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl3_1_2" layoutX="160.0" layoutY="630.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl2_2_2" layoutX="388.0" layoutY="595.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl1_2_2" layoutX="323.0" layoutY="630.0" prefHeight="14.0" prefWidth="88.0" />
+      <TextField fx:id="Lbl3_2_2" layoutX="448.0" layoutY="630.0" prefHeight="14.0" prefWidth="88.0" />
+      <Label fx:id="LBLv3_2" alignment="CENTER" layoutX="681.0" layoutY="473.0" prefHeight="26.0" prefWidth="88.0" styleClass="label-custom" text="Player" />
+      <Label fx:id="LBLv1_2" alignment="CENTER" layoutX="130.0" layoutY="473.0" prefHeight="26.0" prefWidth="88.0" styleClass="label-custom" text="Player" />
+      <Label fx:id="LBLv2" alignment="CENTER" layoutX="383.0" layoutY="272.0" prefHeight="26.0" prefWidth="88.0" styleClass="label-custom" text="Player" />
+      <Line endX="53.999969482421875" endY="1.1999969482421875" fill="WHITE" layoutX="120.0" layoutY="133.0" startX="-11.999992370605469" startY="0.1999969482421875" stroke="#fffcfc" strokeWidth="3.0" />
+      <Line endX="58.999969482421875" endY="0.20001220703125" fill="WHITE" layoutX="120.0" layoutY="258.0" startX="-11.999992370605469" startY="0.1999969482421875" stroke="#fffcfc" strokeWidth="3.0" />
+      <Line endX="53.999969482421875" endY="0.199981689453125" fill="WHITE" layoutX="120.0" layoutY="378.0" startX="-11.999992370605469" startY="0.1999969482421875" stroke="#fffcfc" strokeWidth="3.0" />
+      <Line endX="85.99996948242188" endY="0.20001220703125" fill="WHITE" layoutX="249.0" layoutY="256.0" startX="19.800018310546875" startY="0.20001220703125" stroke="#fffcfc" strokeWidth="3.0" />
+      <Line endX="23.0" endY="1.8000030517578125" fill="WHITE" layoutX="717.0" layoutY="131.0" startX="-33.0" startY="1.1999969482421875" stroke="#fffcfc" strokeWidth="3.0" />
+      <Line endX="21.0" endY="0.20001220703125" fill="WHITE" layoutX="717.0" layoutY="255.0" startX="-33.0" startY="0.20001220703125" stroke="#fffcfc" strokeWidth="3.0" />
+      <Line endX="21.0" endY="0.20001220703125" fill="WHITE" layoutX="716.0" layoutY="369.0" startX="-32.0" startY="1.20001220703125" stroke="#fffcfc" strokeWidth="3.0" />
+      <Line endX="29.0" endY="1.20001220703125" fill="WHITE" layoutX="575.0" layoutY="253.0" startX="-55.0" startY="1.20001220703125" stroke="#fffcfc" strokeWidth="3.0" />
+      <Line endX="18.0" endY="45.0" fill="WHITE" layoutX="708.0" layoutY="550.0" startX="17.0" startY="-50.5999755859375" stroke="#fffcfc" strokeWidth="3.0" />
+      <Line endX="12.999969482421875" endY="46.0" fill="WHITE" layoutX="419.0" layoutY="549.0" startX="11.999969482421875" startY="-49.5999755859375" stroke="#fffcfc" strokeWidth="3.0" />
+      <Line endX="12.999969482421875" endY="46.0" fill="WHITE" layoutX="139.0" layoutY="548.0" startX="12.999969482421875" startY="-48.5999755859375" stroke="#fffcfc" strokeWidth="3.0" />
+      <Line endX="77.99996948242188" endY="26.0" fill="WHITE" layoutX="103.0" layoutY="446.0" startX="77.99996948242188" startY="-8.5999755859375" stroke="#fffcfc" strokeWidth="3.0" />
+      <Line endX="269.9999694824219" endY="-3.0" fill="WHITE" layoutX="159.0" layoutY="476.0" startX="269.9999694824219" startY="-177.60000610351562" stroke="#fffcfc" strokeWidth="3.0" />
+      <Line endX="548.5999755859375" endY="-35.79998779296875" fill="WHITE" layoutX="173.0" layoutY="471.0" startX="258.0212707519531" startY="-34.54998779296875" stroke="#fffcfc" strokeWidth="3.0" />
+      <Line endX="19.199981689453125" endY="-269.79998779296875" fill="WHITE" layoutX="260.0" layoutY="404.0" startX="1.999969482421875" startY="-269.79998779296875" stroke="#fffcfc" strokeWidth="3.0" />
+      <Line endX="350.5" endY="-315.29998779296875" fill="WHITE" layoutX="235.0" layoutY="447.0" startX="351.5" startY="-75.79998779296875" stroke="#fffcfc" strokeWidth="3.0" />
+      <Line endX="279.3999938964844" endY="-31.4000244140625" fill="WHITE" layoutX="442.0" layoutY="502.0" startX="279.3999938964844" startY="-64.20001220703125" stroke="#fffcfc" strokeWidth="3.0" />
+      <Line endX="506.8999938964844" endY="-35.29998779296875" fill="WHITE" layoutX="-78.0" layoutY="472.0" startX="257.3999938964844" startY="-35.79998779296875" stroke="#fffcfc" strokeWidth="3.0" />
+      <Line endX="365.4999694824219" endY="-348.3999938964844" fill="WHITE" layoutX="-85.0" layoutY="486.0" startX="365.6999816894531" startY="-107.79998779296875" stroke="#fffcfc" strokeWidth="3.0" />
+      <Line endX="19.199981689453125" endY="-269.79998779296875" fill="WHITE" layoutX="260.0" layoutY="648.0" startX="1.999969482421875" startY="-269.79998779296875" stroke="#fffcfc" strokeWidth="3.0" />
+      <Line endX="17.800048828125" endY="-269.79998779296875" fill="WHITE" layoutX="586.0" layoutY="640.0" startX="1.999969482421875" startY="-269.79998779296875" stroke="#fffcfc" strokeWidth="3.0" />
+      <Line endX="17.800048828125" endY="-269.79998779296875" fill="WHITE" layoutX="585.0" layoutY="402.0" startX="1.999969482421875" startY="-269.79998779296875" stroke="#fffcfc" strokeWidth="3.0" />
+      <Label fx:id="LblCodiceTorneo" alignment="TOP_LEFT" layoutX="60.0" layoutY="14.0" prefHeight="26.0" prefWidth="270.0" styleClass="label-custom-punteggio"/>
+      <Button layoutX="379.0" layoutY="78.0" mnemonicParsing="false" onAction="#creaTorneo" prefHeight="44.0" prefWidth="103.0" styleClass="button-salvaPartita" text="CREA TORNEO" />
+      <Button layoutX="718.0" layoutY="14.0" mnemonicParsing="false" onAction="#tornaAllaHome" text="Torna alla Home" />
+   </children>
+</AnchorPane>

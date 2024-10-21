@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="860.0" styleClass="AnchorPane2" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RegoleController">
+   <children>
+      <Text fill="#0fcf22" layoutX="415.0" layoutY="43.0" stroke="#2a86b4" strokeType="OUTSIDE" text="REGOLE" textAlignment="CENTER" wrappingWidth="310.0">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text fill="#fffbfb" layoutX="45.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ogni partita sarà sempre composta da 3 giocatori." wrappingWidth="534.9367065429688">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#fffbfb" layoutX="45.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le carte totali del gioco sono 21." wrappingWidth="259.73663330078125">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#fffbfb" layoutX="45.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Carte Influencer : " wrappingWidth="534.9367065429688">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#fffbfb" layoutX="59.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="  - Anonymous : Chi schiera questa carta, sottrarrà alla fine della mano la metà dei punti che spettano al vincitore della mano, di conseguenza " wrappingWidth="751.7366943359375">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#fffbfb" layoutX="59.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="  - Carte che hanno un determinato numero di follower " wrappingWidth="534.9367065429688">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#fffbfb" layoutX="45.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Carte imprevisto : " wrappingWidth="534.9367065429688">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#fffbfb" layoutX="326.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="il vincitore prenderà la restante metà." wrappingWidth="534.9367065429688">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#fffbfb" layoutX="59.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" text="  - Prodotto Difettoso : Chi schiera questa carta alla fine della mano farà perdere la metà del punteggio al giocatore alla sua sinistra.                " wrappingWidth="534.9367065429688">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#fffbfb" layoutX="59.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="  - Profilo Virale : Chi schera questa carta riceverà alla fine della mano 80 punti bonus." wrappingWidth="534.9367065429688">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#fffbfb" layoutX="50.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Riempimento.  " wrappingWidth="139.73667907714844">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#fffbfb" layoutX="61.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Se i giocatori che partecipano alla partita sono meno di tre, verrà riempita con dei bot." wrappingWidth="676.5366821289062">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#fffbfb" layoutX="44.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Come si gioca ?" wrappingWidth="139.73667907714844">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#fffbfb" layoutX="48.0" layoutY="473.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Durante ogni mano un giocatore ha un turno a disposizione per schierare una carta." wrappingWidth="676.5366821289062">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#fffbfb" layoutX="48.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I turni sono sequenziali e vanno in senso orario." wrappingWidth="676.5366821289062">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#fffbfb" layoutX="51.0" layoutY="515.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alla fine di ogni mano, la carta in campo con il numero di followers più alto aggiungerà al punteggio del giocatore che ha schierato quella carta il suo valore" wrappingWidth="704.5366821289062">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#fffbfb" layoutX="51.0" layoutY="557.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alla fine di ogni mano automaticamente i giocatori pescheranno una carta dal mazzo." wrappingWidth="704.5366821289062">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#fffbfb" layoutX="48.0" layoutY="578.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quando il mazzo esaurirà le proprie carte, i giocatori continueranno a schierare le carte che hanno in mano, fino ad esaurimento di quest'ultime." wrappingWidth="704.5366821289062">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#fffbfb" layoutX="47.0" layoutY="635.0" strokeType="OUTSIDE" strokeWidth="0.0" text="La partita finisce nel momento in cui tutti i giocatori hanno schierato tutte e tre le carte che avevano in mano ed il mazzo è vuoto.Vincerà il giocatore con il punteggio maggiore. " wrappingWidth="704.5366821289062">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Button layoutX="753.0" layoutY="19.0" mnemonicParsing="false" onAction="#tornaIndietro" text="Torna indietro" />
+   </children>
+</AnchorPane>
