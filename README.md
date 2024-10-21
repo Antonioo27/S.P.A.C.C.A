@@ -42,4 +42,4 @@ Quando il mazzo esaurirà le proprie carte, i giocatori continueranno a schierar
 
 La partita finisce nel momento in cui tutti i giocatori hanno schierato tutte le carte che avevano in mano ed il mazzo è vuoto. 
 
-==**Vincerà il giocatore con il punteggio maggiore.
+**Vincerà il giocatore con il punteggio maggiore.**
