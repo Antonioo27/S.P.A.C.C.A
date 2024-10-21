@@ -28,7 +28,7 @@ Le carte totali del gioco sono 21:
 
 Se i giocatori che partecipano alla partita sono meno di tre, verrà riempita con dei bot.
 
-#### Come si gioca ?
+### Come si gioca ?
 
 Durante ogni mano un giocatore ha un turno a disposizione per schierare una carta.
 
