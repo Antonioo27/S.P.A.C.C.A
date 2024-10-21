@@ -1,6 +1,13 @@
 ## Requisiti
-Necessaria versione 21+ di Java per eseguire il `.jar`
-[https://www.oracle.com/it/java/technologies/downloads/#java21](Download Java 21)
+
+Versione 21+ di Java per eseguire il `.jar`
+[java21](https://www.oracle.com/java/technologies/downloads/?er=221886)
+
+Installare le librerie di javaFX versione 23.0.1
+[javaFX](https://gluonhq.com/products/javafx/)
+
+
+
 
 ## Regole gioco
 Ogni partita sarà composta da 3 giocatori.
