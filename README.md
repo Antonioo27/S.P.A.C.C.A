@@ -15,7 +15,7 @@ java --module-path "path-to-javafx-sdk/lib" --add-modules=javafx.controls,javafx
 `lib`: la cartella per mantenere le dipendenze
 Nel frattempo, i file di output compilati verranno generati nella cartella `bin` di default.
 
-> Se desideri personalizzare la struttura delle cartelle, apri `.vscode/settings.json` e aggiorna lì le relative impostazioni.
+Se desideri personalizzare la struttura delle cartelle, apri `.vscode/settings.json` e aggiorna lì le relative impostazioni.
 
 
 ## Regole gioco
