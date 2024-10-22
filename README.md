@@ -8,7 +8,7 @@ Installare le librerie di javaFX versione 23.0.1
 
 Eseguire il `.jar` da terminale icludendo le librerie
 ```
-java --module-path "path-to-javafx-sdk/lib" --add-modules=javafx.controls,javafx.xml -jar spacca.jar
+java --module-path "path-to-javafx-sdk/lib" --add-modules=javafx.controls,javafx.fxml -jar spacca.jar
 ```
 
 ## Struttura repository
