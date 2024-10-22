@@ -11,6 +11,8 @@ Eseguire il `.jar` da terminale icludendo le librerie
 java --module-path "path-to-javafx-sdk/lib" --add-modules=javafx.controls,javafx.xml -jar spacca.jar
 ```
 
+## Struttura repository
+
 `src`: la cartella in cui mantenere i sorgenti
 
 `lib`: la cartella per mantenere le dipendenze
