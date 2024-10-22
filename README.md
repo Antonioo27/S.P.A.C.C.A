@@ -8,7 +8,7 @@ Installare le librerie di javaFX versione 23.0.1
 
 Point your terminal on the directory where you saved SPACCA
 ```
-java --module-path "path-to-javafx-sdk/lib" --add-modules=javafx.controls, javafx.xml -jar spacca.jar
+java --module-path "path-to-javafx-sdk/lib" --add-modules=javafx.controls,javafx.xml -jar spacca.jar
 ```
 
 
