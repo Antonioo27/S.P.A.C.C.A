@@ -6,7 +6,7 @@ Versione 21+ di Java per eseguire il `.jar`
 Installare le librerie di javaFX versione 23.0.1
 [Download javaFX](https://gluonhq.com/products/javafx/)
 
-Point your terminal on the directory where you saved SPACCA
+Eseguire il `.jar` da terminale icludendo le librerie
 ```
 java --module-path "path-to-javafx-sdk/lib" --add-modules=javafx.controls,javafx.xml -jar spacca.jar
 ```
